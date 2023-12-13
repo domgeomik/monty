@@ -20,14 +20,14 @@ void free_stack(stack_t *head)
 }
 
 /**
- * f_stack - free stack
+ * f_mystack - free stack
  * @head: first node(unused)
  * @counter: line counter (unused)
  *
  * Return: none
 */
 
-void f_stack(stack_t **head, unsigned int counter)
+void f_mystack(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;

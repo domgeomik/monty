@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * f_pstr - print string at the top of stack
+ * f_mypstr - print string at the top of stack
  * @head: first node of linked list
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_pstr(stack_t **head, unsigned int counter)
+void f_mypstr(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	(void)counter;

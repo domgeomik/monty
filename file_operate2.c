@@ -1,13 +1,13 @@
 #include "monty.h"
 /**
- * f_mul - multiply first 2 elements of the stack
+ * f_mymul - multiply first 2 elements of the stack
  * @head: pointer to pointer to first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_mul(stack_t **head, unsigned int counter)
+void f_mymul(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int length = 0, temp;

@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
-* f_pall - print everything in stack
+* f_mypall - print everything in stack
 * @head: pointer to pointer of first node
 * @counter: line counter (not used)
 *
 * Return: none
 */
 
-void f_pall(stack_t **head, unsigned int counter)
+void f_mypall(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	(void)counter;
@@ -25,14 +25,14 @@ void f_pall(stack_t **head, unsigned int counter)
 }
 
 /**
-* f_swap - swap first two elements of stack
+* f_myswap - swap first two elements of stack
 * @head: first node
 * @counter: line counter
 *
 * Return: none
 */
 
-void f_swap(stack_t **head, unsigned int counter)
+void f_myswap(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int length = 0, temp;

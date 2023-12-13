@@ -1,13 +1,13 @@
 #include "monty.h"
 /**
- * f_div - divide first 2 elements of the stack
+ * f_mydiv - divide first 2 elements of the stack
  * @head: pointer to pointer to first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_div(stack_t **head, unsigned int counter)
+void f_mydiv(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int length = 0, temp;
@@ -42,14 +42,14 @@ void f_div(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_mod - compute modulos of two elements in stack
+ * f_mymod - compute modulos of two elements in stack
  * @head: pointer to pointer to first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_mod(stack_t **head, unsigned int counter)
+void f_mymod(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int length = 0, temp;

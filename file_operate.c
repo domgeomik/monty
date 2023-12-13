@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * f_add - add first 2 elements of the stack
+ * f_myadd - add first 2 elements of the stack
  * @head: pointer to pointer to first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_add(stack_t **head, unsigned int counter)
+void f_myadd(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int length = 0, temp;
@@ -35,14 +35,14 @@ void f_add(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_sub - subtract 2 elements of the stack
+ * f_mysub - subtract 2 elements of the stack
  * @head: pointer to pointer to first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_sub(stack_t **head, unsigned int counter)
+void f_mysub(stack_t **head, unsigned int counter)
 {
 	stack_t *temp;
 	int sub, nd;

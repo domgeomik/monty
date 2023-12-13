@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * f_pop - print top node on stack
+ * f_mypop - print top node on stack
  * @head: pointer to pointer of first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_pop(stack_t **head, unsigned int counter)
+void f_mypop(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 
@@ -27,14 +27,14 @@ void f_pop(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_pint - print top node on stack
+ * f_mypint - print top node on stack
  * @head: pointer to pointer of first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_pint(stack_t **head, unsigned int counter)
+void f_mypint(stack_t **head, unsigned int counter)
 {
 	if (*head == NULL)
 	{
@@ -49,14 +49,14 @@ void f_pint(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_nop - do nothing
+ * f_mynop - do nothing
  * @head: pointer to pointer of first node
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_nop(stack_t **head, unsigned int counter)
+void f_mynop(stack_t **head, unsigned int counter)
 {
 	(void) counter;
 	(void) head;

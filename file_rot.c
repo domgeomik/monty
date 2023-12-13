@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * f_rotl- rotate stack element to the top
+ * f_myrotl- rotate stack element to the top
  * @head: first node of stack
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
+void f_myrotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 {
 	stack_t *tmp = *head, *aux;
 
@@ -29,14 +29,14 @@ void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 }
 
 /**
- * f_rotr - rotate stack element to the bottom
+ * f_myrotr - rotate stack element to the bottom
  * @head: first node of stack
  * @counter: line counter
  *
  * Return: none
  */
 
-void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
+void f_myrotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 {
 	stack_t *copy;
 

@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * f_queue - print first node of queue
+ * f_myqueue - print first node of queue
  * @head: first node of queue (unused)
  * @counter: line counter (unused)
  *
  * Return: none
  */
 
-void f_queue(stack_t **head, unsigned int counter)
+void f_myqueue(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
